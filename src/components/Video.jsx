@@ -1,7 +1,7 @@
 
 const Video = () => {
     return (
-        <video className='w-screen h-screen top-0 left-0 fixed object-cover w-full h-full' src="/bg.mp4" autoPlay loop muted></video>
+        <video className='top-0 left-0 fixed object-cover w-full h-full -z-10' src="/bg.mp4" autoPlay loop muted></video>
     )
 }
 
