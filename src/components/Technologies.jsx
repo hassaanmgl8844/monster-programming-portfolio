@@ -1,6 +1,8 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
 
 const Technologies = () => {
   return (
@@ -18,12 +20,12 @@ const Technologies = () => {
           <p>Angular</p>
         </div>
         <div>
-          <FaReact />
-          <p>React</p>
+          <FaNodeJs />
+          <p>Node JS</p>
         </div>
         <div>
-          <FaReact />
-          <p>React</p>
+          <DiMongodb />
+          <p>MongoDB</p>
         </div>
       </div>
     </section>
