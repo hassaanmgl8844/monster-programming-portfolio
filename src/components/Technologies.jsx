@@ -2,8 +2,8 @@ import React from "react";
 
 const Technologies = () => {
   return (
-    <section className="text-white max-h-screen flex items-center bg-black/70">
-      <div className="bg-black text-green-700 border-2 ">Technologies</div>
+    <section className="text-white h-auto w-full flex items-center justify-center bg-black/70">
+      <div className="bg-black text-green-300 border border-green-300 rounded px-5 py-3">Technologies</div>
       <div></div>
     </section>
   );
