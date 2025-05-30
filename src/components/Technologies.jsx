@@ -7,7 +7,6 @@ const Technologies = () => {
         Technologies
       </h2>
       <div className="border-2 flex flex-wrap justify-center items-center">
-        <div className="border-2 border-green-300">React</div>
         <div>Express JS</div>
         <div>Node JS</div>
         <div>Mongo DB</div>
