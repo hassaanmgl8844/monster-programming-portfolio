@@ -3,6 +3,7 @@ import "./globals.css";
 import Video from "@/components/Video";
 import Navbar from "@/components/Navbar";
 import Home from "@/components/Home";
+import Technologies from "@/components/Technologies";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Video />
         <Home />
+        <Technologies />
         {children}
       </body>
     </html>
