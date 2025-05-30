@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Technologies = () => {
   return (
-    <div className='text-white '>Technologies</div>
-  )
-}
+    <section className="text-white max-h-screen flex items-center bg-black/70">
+      <div className="">Technologies</div>
+      <div></div>
+    </section>
+  );
+};
 
-export default Technologies
+export default Technologies;
