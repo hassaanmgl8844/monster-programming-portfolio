@@ -14,7 +14,7 @@ const Technologies = () => {
       <h2 className="bg-black text-green-300 border-green-300 border-2 rounded px-5 py-3 md:text-2xl lg:text-3xl ">
         Technologies
       </h2>
-      <div className="border-2 flex flex-wrap justify-center items-center">
+     <div class="bg-green-500 rounded-xl p-6 w-full max-w-5xl">
         <div>
           <FaReact />
           <p>React</p>
@@ -42,6 +42,10 @@ const Technologies = () => {
         <div>
           <SiTypescript />
           <p>TypeScript</p>
+        </div>
+        <div>
+          <FaSass />
+          <p>SASS</p>
         </div>
       </div>
     </section>
