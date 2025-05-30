@@ -3,6 +3,10 @@ import { FaReact } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { IoLogoFigma } from "react-icons/io5";
+import { FaSass } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -26,6 +30,18 @@ const Technologies = () => {
         <div>
           <DiMongodb />
           <p>MongoDB</p>
+        </div>
+        <div>
+          <IoLogoJavascript />
+          <p>Javascript</p>
+        </div>
+        <div>
+          <IoLogoFigma />
+          <p>Figma</p>
+        </div>
+        <div>
+          <SiTypescript />
+          <p>TypeScript</p>
         </div>
       </div>
     </section>
