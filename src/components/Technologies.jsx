@@ -1,4 +1,6 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
+import { FaAngular } from "react-icons/fa";
 
 const Technologies = () => {
   return (
@@ -7,9 +9,22 @@ const Technologies = () => {
         Technologies
       </h2>
       <div className="border-2 flex flex-wrap justify-center items-center">
-        <div>Express JS</div>
-        <div>Node JS</div>
-        <div>Mongo DB</div>
+        <div>
+          <FaReact />
+          <p>React</p>
+        </div>
+        <div>
+          <FaAngular />
+          <p>Angular</p>
+        </div>
+        <div>
+          <FaReact />
+          <p>React</p>
+        </div>
+        <div>
+          <FaReact />
+          <p>React</p>
+        </div>
       </div>
     </section>
   );
